@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/default.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="head">
+            <div class="row">
+                <div id="regnestykket" class=col-4>
+                </div>
+            </div>
+            <div class="row">
+                    <input type="number" name="" id="resultat" class="col-4" autofocus>
+            </div>
+        </div>
+        <div class="row">
+            <button id="stepback" class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-level-up-alt fa-flip-horizontal"></i>
+            </button>
+            <button id="clear" class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-trash"></i>
+            </button>
+            <button id="slet" class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-backspace"></i>
+            </button>
+            <button id="plus" class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+        <div class="row">
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                7
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                8
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                9
+            </button>
+            <button class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+        <div class="row">
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                4
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                5
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                6
+            </button>
+            <button class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-divide"></i>
+            </button>
+        </div>
+        <div class="row">
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                1
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                2
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                3
+            </button>
+            <button class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="row">
+            <button class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-history"></i>
+            </button>
+            <button class="col-1 numbers" onclick='buttonclick()'>
+                0
+            </button>
+            <button id="point" class="col-1 instruktion numbers" onclick='buttonclick()'>
+                .
+            </button>
+            <button class="col-1 instruktion" onclick='buttonclick()'>
+                <i class="fas fa-equals"></i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

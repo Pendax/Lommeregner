@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:focus {
+    border: none; 
+    outline: none; 
+    outline-offset: 0px;
+}
+
+button {
+    background: #e6e6e6;
+}
+
+button:hover, #point:hover {
+    background: #bfbfbf; 
+    border: 2px solid #b3b3b3
+}
+
+input {
+    padding: 0px; 
+    background: none;
+    border: none; 
+    cursor: context-menu;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    -webkit-appearance: none;
+}
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+
+#calculator {
+    background: #d3d3d3; 
+    border: 1px solid black
+}
+
+#resultat, #regnestykket {
+    text-align: right; 
+    font-size:1.5rem;
+    font-weight:900; 
+    border: none;
+}
+
+#point {
+    background: #e6e6e6;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width: 25%
+}
+
+.col-2 {
+    width: 50%
+}
+
+.col-3 {
+    width: 75%
+}
+
+.col-4 {
+    width: 100%
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 2px solid #d3d3d3;
+}
+
+.numbers {
+    padding: 13px; 
+    background: #ffffff; 
+    font-weight: 900;
+}
